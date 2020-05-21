@@ -1,0 +1,7 @@
+Django
+djangorestframework
+djongo
+psycopg2-binary
+gunicorn
+requests
+sqlparse==0.2.4
