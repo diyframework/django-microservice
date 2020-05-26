@@ -2,6 +2,11 @@
 
 ### Architecture
 *Mock Architecture*
+
+*- Green button means the database is securely safe and possibly shared-on with another database*
+
+*- Yellow button means it has several issue based on security, otimization and database trade-off*
+
 ![Imgur](https://i.imgur.com/1ICaWah.jpg)
 
 This is only example to scalable django features based on microservices pattern. Does django with microservices is a good idea? **depends** on your perspective. Somewhat, django might very bloated or might be overkill (since django its batteries included) when it comes to microservices, another perspective is possible to go with microservices with django if you've got a good reason to do so like you have a large services and you know that you need to scale different components independently or you pretty sure that your database can't handle all that things. 
